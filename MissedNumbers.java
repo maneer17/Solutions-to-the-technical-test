@@ -44,7 +44,7 @@ public static ArrayList<Integer> missingnumbers(ArrayList<Integer> arr){
             for(int l=prev+1;next>l;++l)
                 // if the next is actually the next number meaning next-pre equals 1 or zero " if they're the same num"
                 // the inner loop won't be excuted
-                missednumbers.add(l); // Print missing numbers between prev and next
+                missednumbers.add(l); // add the missing number to the list of missing numbers 
         }
         return missednumbers;
 }
